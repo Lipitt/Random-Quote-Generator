@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: cornflowerblue;
+}
+#mainDiv {
+  display: flex;
+  flex: 1;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  width: 75vh;
+  margin: 10% auto;
+  border-radius: 1%;
+}
+#quoteBtn {
+  background-color: cornflowerblue;
+  border: none;
+  width: 100px;
+  height: 40px;
+  color: white;
+  border-radius: 5%;
+  float: left;
+}
+#twitterBtn {
+  background-color: cornflowerblue;
+  height: 40px;
+  width: 45px;
+  border: none;
+  margin-right: 3px;
+  margin-left: 50px;
+  color: white;
+  border-radius: 5%;
+  float: left;
+}
+#quoteDiv {
+  width: 40%;
+  height: 80%;
+  font-size: 1.1rem;
+  color: cornflowerblue;
+}
+#quote {
+  font-size: 1.2rem;
+  float: left;
+}
+#author {
+  position: relative;
+  float: left;
+}
+#buttonDiv {
+  margin-top: 100px;
+}
