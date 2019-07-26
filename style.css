@@ -4,14 +4,12 @@ body {
   background-color: cornflowerblue;
 }
 #mainDiv {
+  position: relative;
   display: flex;
-  flex: 1;
   background-color: white;
-  align-items: center;
-  justify-content: center;
-  height: 40vh;
-  width: 75vh;
-  margin: 10% auto;
+  height: 40%;
+  width: 80%;
+  margin: 15% auto;
   border-radius: 1%;
 }
 #quoteBtn {
@@ -20,34 +18,37 @@ body {
   width: 100px;
   height: 40px;
   color: white;
-  border-radius: 5%;
-  float: left;
 }
 #twitterBtn {
+  float: right;
   background-color: cornflowerblue;
   height: 40px;
   width: 45px;
   border: none;
-  margin-right: 3px;
-  margin-left: 50px;
+  margin-left: 3px;
   color: white;
-  border-radius: 5%;
-  float: left;
 }
 #quoteDiv {
-  width: 40%;
+  margin: 0 auto;
+  width: 90%;
   height: 80%;
-  font-size: 1.1rem;
   color: cornflowerblue;
 }
 #quote {
-  font-size: 1.2rem;
-  float: left;
+  font-size: 1.3rem;
+  text-align: center;
+  align-items: center;
 }
 #author {
-  position: relative;
-  float: left;
+  font-size: 1rem;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 60px;
 }
 #buttonDiv {
-  margin-top: 100px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 10px;
+  margin-right: 10px;
 }
